@@ -6,6 +6,7 @@ This is a simple PoC for sending basic C2 over ICMP echo/replies via 'bind' equi
 The listener has been tested on Python 3.x under Windows within 64 bit python default settings
 **Ensure that you do a 'pip install scapy' prior to using the script**
 **Modify the sniff listener 'iface=' to be whichever interface you use**
+
 In windows, you can find this under show_interfaces() illustrated below:
 >> show_interfaces()
 INDEX  IFACE                                           IP               MAC
@@ -30,4 +31,4 @@ ping foo.com - Returns empty in response pkt with payload on the listening conso
 Dennis Chow dchow[AT]xtecsystems.com
 www.scissecurity.com*
 
-![example]([https://github.com/dc401/icmp-bindshell/blob/master/icmp-shellcode-experimental.png](https://github.com/dc401/icmp-bindshell/blob/master/icmp-shellcode-experimental.png))
+![example](https://github.com/dc401/icmp-bindshell/raw/master/icmp-shellcode-experimental.png)
