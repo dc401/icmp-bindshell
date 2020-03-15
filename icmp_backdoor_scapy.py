@@ -81,4 +81,4 @@ def shellfoo(pkt):
 		#send(resp)
 
 #BPF filter for icmp only up to 10 packet count
-sniff(iface="Realtek PCIe GBE Family Controller", prn=shellfoo, filter="icmp", count=10)
+sniff(iface="Intel(R) Dual Band Wireless-AC 8265", prn=shellfoo, filter="icmp", count=10)
