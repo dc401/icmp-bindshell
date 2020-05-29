@@ -1,3 +1,6 @@
+This is part of a tutorial written on Medium, please follow the link below for more context.
+**[Practical Insider Threat Penetration Testing Cases with Scapy (Shell Code and Protocol Evasion)](https://medium.com/swlh/practical-insider-threat-penetration-testing-cases-with-scapy-shell-code-and-protocol-evasion-e18d43d50da)**
+
 # icmp-bindshell
 Experimental python3.x based ICMP bind shell listener using scapy and windows 'compatible'
 
